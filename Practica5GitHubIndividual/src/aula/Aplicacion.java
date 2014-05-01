@@ -30,8 +30,7 @@ public class Aplicacion {
 			case 1:
 				// Crear la lista sino existe
 				if (miLista == null) {
-					String nombreLista = JOptionPane
-							.showInputDialog("Nombre de la lista");
+					JOptionPane.showInputDialog("Nombre de la lista");
 					miLista = crearLista();
 				} else {
 					JOptionPane.showMessageDialog(null, "Ya existe una lista");
