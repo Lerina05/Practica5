@@ -28,7 +28,7 @@ public class Aplicacion {
 
 			switch (opcion) {
 			case 1:
-				// Crear la lista sino existe
+				// Crear primero la lista sino existe
 				if (miLista == null) {
 					JOptionPane.showInputDialog("Nombre de la lista");
 					miLista = crearLista();
